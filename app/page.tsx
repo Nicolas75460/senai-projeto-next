@@ -6,6 +6,7 @@ const features = [
   { number: "01", title: "Ideias que respiram", text: "Um espaço calmo para tirar projetos do papel e dar forma ao que ainda está só na sua cabeça.", icon: "✦" },
   { number: "02", title: "Ritmo sem ruído", text: "Organize o que importa, elimine distrações e encontre um jeito mais leve de avançar.", icon: "◌" },
   { number: "03", title: "Feito para compartilhar", text: "Transforme pensamentos em algo que sua equipe, seus clientes e o mundo possam sentir.", icon: "↗" },
+  { number: "04", title: "Espaço para o inesperado", text: "Deixe as conexões acontecerem e descubra novas possibilidades no caminho.", icon: "＋" },
 ];
 
 export default function Home() {

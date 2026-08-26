@@ -16,6 +16,6 @@ export default function Home() {
     <section className="features" id="como-funciona" aria-labelledby="features-title"><div className="section-heading"><p className="eyebrow">O que nos move</p><h2 id="features-title">Menos fórmula.<br /><em>Mais você.</em></h2></div><div className="feature-list">{features.map((feature) => <article className="feature" key={feature.number}><div className="feature-top"><span>{feature.number}</span><strong>{feature.icon}</strong></div><h3>{feature.title}</h3><p>{feature.text}</p></article>)}</div></section>
     <section className="quote-section"><div className="quote-mark">“</div><blockquote>A criatividade não é um dom distante. É um lugar que você pode escolher visitar todos os dias.</blockquote><p>— O manifesto mosaico</p></section>
     <section className="contact section-rule" id="contato"><div className="section-label">[ seja parte ]</div><div className="contact-content"><h2>Tem uma ideia<br />pulsando aí?</h2><p>Estamos preparando algo especial para quem acredita que o jeito de fazer importa tanto quanto o que se faz.</p><WaitlistForm /></div></section>
-    <footer className="site-footer"><Link className="brand" href="/"><span>m</span> mosaico</Link><p>Um espaço para ideias com intenção.</p><p>© 2025 mosaico</p></footer>
+    <footer className="site-footer"><Link className="brand" href="/"><span>m</span> mosaico</Link><p>Um espaço para ideias com intenção.</p><a className="footer-contact" href="mailto:hello@mosaico.studio">hello@mosaico.studio</a><p>© 2025 mosaico</p></footer>
   </main>;
 }
